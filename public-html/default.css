@@ -1,0 +1,38 @@
+body {
+  background-image:
+    /*===========================================
+      NOTE: Check if Geckodriver is accessible.
+    ===========================================*/
+    url('http://127.0.0.1:4444/status'),
+
+    /*===========================================
+      NOTE: Check if Chromedriver is accessible.
+    ===========================================*/
+    url('http://127.0.0.1:9515/status'),
+
+    /*===========================================
+      NOTE: Set a nice background image.
+    ===========================================*/
+    url('background.jpg');
+
+  padding-top: 100px;
+  text-align: center;
+}
+
+button {
+  font-family: cursive !important;
+  font-size: 1.5em !important;
+  height: 300px;
+  text-shadow: 2px 2px;
+  width: 300px;
+}
+
+div {
+  margin-top: 5%;
+}
+
+h1 {
+    font-family: cursive !important;
+    font-size: 5em !important;
+    text-shadow: 2px 2px;
+}
